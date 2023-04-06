@@ -1,0 +1,61 @@
+PODS:
+  - Alamofire (5.6.4)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Combine (15.0.0):
+    - Moya/Core
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - NetworkManager (0.1.0):
+    - Moya
+    - Moya/Combine
+  - SwifterSwift (5.2.0):
+    - SwifterSwift/AppKit (= 5.2.0)
+    - SwifterSwift/CoreAnimation (= 5.2.0)
+    - SwifterSwift/CoreGraphics (= 5.2.0)
+    - SwifterSwift/CoreLocation (= 5.2.0)
+    - SwifterSwift/Dispatch (= 5.2.0)
+    - SwifterSwift/Foundation (= 5.2.0)
+    - SwifterSwift/MapKit (= 5.2.0)
+    - SwifterSwift/SceneKit (= 5.2.0)
+    - SwifterSwift/SpriteKit (= 5.2.0)
+    - SwifterSwift/StoreKit (= 5.2.0)
+    - SwifterSwift/SwiftStdlib (= 5.2.0)
+    - SwifterSwift/UIKit (= 5.2.0)
+  - SwifterSwift/AppKit (5.2.0)
+  - SwifterSwift/CoreAnimation (5.2.0)
+  - SwifterSwift/CoreGraphics (5.2.0)
+  - SwifterSwift/CoreLocation (5.2.0)
+  - SwifterSwift/Dispatch (5.2.0)
+  - SwifterSwift/Foundation (5.2.0)
+  - SwifterSwift/MapKit (5.2.0)
+  - SwifterSwift/SceneKit (5.2.0)
+  - SwifterSwift/SpriteKit (5.2.0)
+  - SwifterSwift/StoreKit (5.2.0)
+  - SwifterSwift/SwiftStdlib (5.2.0)
+  - SwifterSwift/UIKit (5.2.0)
+
+DEPENDENCIES:
+  - Moya
+  - NetworkManager (from `/Users/imac/Desktop/NetworkManager`)
+  - SwifterSwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+    - SwifterSwift
+
+EXTERNAL SOURCES:
+  NetworkManager:
+    :path: "/Users/imac/Desktop/NetworkManager"
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  NetworkManager: 7625f574fbbb9f11f4b51a364e87799b235231cf
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
+
+PODFILE CHECKSUM: 6f8eb8ce5598f3de0071dda15c8b12a7ec63082e
+
+COCOAPODS: 1.11.3
