@@ -44,7 +44,11 @@ struct LoginView: View {
     
     var loginButton: some View {
         Button {
-            print("")
+            if (store.state.agree) {
+                
+            }else {
+                store.state.showAgreeAlert = true
+            }
         } label: {
             Text("手机登陆")
                 .font(.system(size: 16, weight: .medium))
@@ -101,6 +105,13 @@ struct LoginView: View {
             ZStack {
                 bgView
                 frontView
+                LoginNegotiateAlertView(certainCallback: {
+                    store.state.agree = true
+                    store.state.showAgreeAlert = false
+                }, quiteCallback: {
+                    exit(0)
+                })
+                    .opacity(store.state.showAgreeAlert ? 1.0 : 0.0)
             }
             .ignoresSafeArea()
         }

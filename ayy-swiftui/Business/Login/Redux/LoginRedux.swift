@@ -14,4 +14,5 @@ class LoginStore: ObservableObject {
 struct LoginState {
     var title = "首页"
     var agree = false
+    var showAgreeAlert = false
 }
