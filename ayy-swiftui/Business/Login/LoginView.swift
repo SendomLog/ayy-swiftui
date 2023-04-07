@@ -45,7 +45,7 @@ struct LoginView: View {
     var loginButton: some View {
         Button {
             if (store.state.agree) {
-                
+                store.state.path.append(0)
             }else {
                 store.state.showAgreeAlert = true
             }
@@ -97,19 +97,28 @@ struct LoginView: View {
     }
     
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $store.state.path) {
             ZStack {
                 bgView
                 frontView
                 LoginNegotiateAlertView(certainCallback: {
                     store.state.agree = true
                     store.state.showAgreeAlert = false
+                    store.state.path.append(0)
                 }, quiteCallback: {
                     exit(0)
                 })
                     .opacity(store.state.showAgreeAlert ? 1.0 : 0.0)
             }
             .ignoresSafeArea()
+            .navigationDestination(for: Int.self) { idx in
+                switch idx {
+                case 0:
+                    Text("\(idx)")
+                default:
+                    Text("\(idx)")
+                }
+            }
         }
     }
 }

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 class LoginStore: ObservableObject {
     @Published var state = LoginState()
@@ -15,4 +16,5 @@ struct LoginState {
     var title = "首页"
     var agree = false
     var showAgreeAlert = false
+    var path = NavigationPath()
 }
