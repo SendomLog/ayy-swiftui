@@ -67,9 +67,7 @@ struct LoginView: View {
             Text("登陆即代表您同意")
                 .foregroundColor(Color(red: 199/255.0, green: 199/255.0, blue: 199/255.0))
             
-            NavigationLink {
-                Text("《用户协议》")
-            } label: {
+            Link(destination: URL(string: "https://www.baidu.com")!) {
                 Text("《用户协议》")
                     .foregroundColor(.white)
             }
@@ -77,9 +75,7 @@ struct LoginView: View {
             Text("和")
                 .foregroundColor(Color(red: 199/255.0, green: 199/255.0, blue: 199/255.0))
             
-            NavigationLink {
-                Text("《隐私政策》")
-            } label: {
+            Link(destination: URL(string: "https://www.baidu.com")!) {
                 Text("《隐私政策》")
                     .foregroundColor(.white)
             }
