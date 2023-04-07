@@ -114,7 +114,8 @@ struct LoginPreView: View {
             .navigationDestination(for: Int.self) { idx in
                 switch idx {
                 case 0:
-                    Text("\(idx)")
+                    LoginPhoneView()
+                        .environmentObject(store)
                 default:
                     Text("\(idx)")
                 }

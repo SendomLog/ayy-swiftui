@@ -17,6 +17,7 @@
 		88AD86D129DFD25800021492 /* LoginRedux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD86CF29DFD25800021492 /* LoginRedux.swift */; };
 		88AD86D329DFD3C000021492 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD86D229DFD3C000021492 /* UserModel.swift */; };
 		88AD86D629E0127200021492 /* LoginNegotiateAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD86D529E0127200021492 /* LoginNegotiateAlertView.swift */; };
+		88AD86D829E029FC00021492 /* LoginPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD86D729E029FC00021492 /* LoginPhoneView.swift */; };
 		88B741F929DE6950000A5E42 /* ayy_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B741F829DE6950000A5E42 /* ayy_swiftuiApp.swift */; };
 		88B741FD29DE6951000A5E42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B741FC29DE6951000A5E42 /* Assets.xcassets */; };
 		88B7420029DE6951000A5E42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B741FF29DE6951000A5E42 /* Preview Assets.xcassets */; };
@@ -39,6 +40,7 @@
 		88AD86CF29DFD25800021492 /* LoginRedux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRedux.swift; sourceTree = "<group>"; };
 		88AD86D229DFD3C000021492 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		88AD86D529E0127200021492 /* LoginNegotiateAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNegotiateAlertView.swift; sourceTree = "<group>"; };
+		88AD86D729E029FC00021492 /* LoginPhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPhoneView.swift; sourceTree = "<group>"; };
 		88B741F529DE6950000A5E42 /* ayy-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ayy-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B741F829DE6950000A5E42 /* ayy_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ayy_swiftuiApp.swift; sourceTree = "<group>"; };
 		88B741FC29DE6951000A5E42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				88AD86CD29DFD25800021492 /* LoginPreView.swift */,
+				88AD86D729E029FC00021492 /* LoginPhoneView.swift */,
 				88AD86CE29DFD25800021492 /* Redux */,
 			);
 			path = Login;
@@ -385,6 +388,7 @@
 				88AD86C829DFCF3D00021492 /* HomepageRedux.swift in Sources */,
 				88B7420829DE6C1B000A5E42 /* DelegateService.swift in Sources */,
 				88B7423029DED0A1000A5E42 /* AppState.swift in Sources */,
+				88AD86D829E029FC00021492 /* LoginPhoneView.swift in Sources */,
 				88AD86CB29DFCFEC00021492 /* SettingRedux.swift in Sources */,
 				88B7420E29DE70AB000A5E42 /* BaseModel.swift in Sources */,
 			);
