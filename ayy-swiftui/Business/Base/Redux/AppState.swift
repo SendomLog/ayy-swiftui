@@ -9,6 +9,7 @@ import Foundation
 
 struct AppState {
     var memberConfig: MemberConfigModel?
+    var userModel: UserModel?
 }
 
 

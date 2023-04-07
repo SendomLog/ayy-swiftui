@@ -80,14 +80,21 @@ struct ayy_swiftuiApp: App {
     
     var body: some Scene {
         WindowGroup {
-            MainTab()
-                .onAppear {
-                    initial()
-                    Task {
-                        await useAsync()
+            ZStack {
+                Color.clear
+                    .onAppear {
+                        initial()
+                        Task {
+                            await useAsync()
+                        }
                     }
+                    .environmentObject(store)
+                if store.state.userModel?.userName == nil {
+                    LoginView()
+                }else {
+                    MainTab()
                 }
-                .environmentObject(store)
+            }
         }
     }
 }
