@@ -8,26 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		2E8F18411FF89D3A1C83FAC6 /* Pods_ayy_swiftui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8CD4746B976C8683EDACA1 /* Pods_ayy_swiftui.framework */; };
+		88AD86BD29DFBE9500021492 /* MainTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD86BC29DFBE9500021492 /* MainTab.swift */; };
+		88AD86C029DFBEDA00021492 /* HomepageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD86BF29DFBEDA00021492 /* HomepageView.swift */; };
+		88AD86C329DFBEFC00021492 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD86C229DFBEFC00021492 /* SettingView.swift */; };
+		88AD86C829DFCF3D00021492 /* HomepageRedux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD86C729DFCF3D00021492 /* HomepageRedux.swift */; };
+		88AD86CB29DFCFEC00021492 /* SettingRedux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD86CA29DFCFEC00021492 /* SettingRedux.swift */; };
 		88B741F929DE6950000A5E42 /* ayy_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B741F829DE6950000A5E42 /* ayy_swiftuiApp.swift */; };
-		88B741FB29DE6950000A5E42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B741FA29DE6950000A5E42 /* ContentView.swift */; };
 		88B741FD29DE6951000A5E42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B741FC29DE6951000A5E42 /* Assets.xcassets */; };
 		88B7420029DE6951000A5E42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B741FF29DE6951000A5E42 /* Preview Assets.xcassets */; };
 		88B7420829DE6C1B000A5E42 /* DelegateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B7420729DE6C1B000A5E42 /* DelegateService.swift */; };
 		88B7420E29DE70AB000A5E42 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B7420D29DE70AB000A5E42 /* BaseModel.swift */; };
 		88B7421029DE7415000A5E42 /* DelegateServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B7420F29DE7415000A5E42 /* DelegateServiceModel.swift */; };
+		88B7422E29DED068000A5E42 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B7422D29DED068000A5E42 /* AppStore.swift */; };
+		88B7423029DED0A1000A5E42 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B7422F29DED0A1000A5E42 /* AppState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		27EBFE6D158F70C7D2DF328E /* Pods-ayy-swiftui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ayy-swiftui.debug.xcconfig"; path = "Target Support Files/Pods-ayy-swiftui/Pods-ayy-swiftui.debug.xcconfig"; sourceTree = "<group>"; };
 		3A8CD4746B976C8683EDACA1 /* Pods_ayy_swiftui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ayy_swiftui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88AD86BC29DFBE9500021492 /* MainTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTab.swift; sourceTree = "<group>"; };
+		88AD86BF29DFBEDA00021492 /* HomepageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageView.swift; sourceTree = "<group>"; };
+		88AD86C229DFBEFC00021492 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		88AD86C729DFCF3D00021492 /* HomepageRedux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageRedux.swift; sourceTree = "<group>"; };
+		88AD86CA29DFCFEC00021492 /* SettingRedux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingRedux.swift; sourceTree = "<group>"; };
 		88B741F529DE6950000A5E42 /* ayy-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ayy-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B741F829DE6950000A5E42 /* ayy_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ayy_swiftuiApp.swift; sourceTree = "<group>"; };
-		88B741FA29DE6950000A5E42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		88B741FC29DE6951000A5E42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88B741FF29DE6951000A5E42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88B7420729DE6C1B000A5E42 /* DelegateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateService.swift; sourceTree = "<group>"; };
 		88B7420D29DE70AB000A5E42 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		88B7420F29DE7415000A5E42 /* DelegateServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateServiceModel.swift; sourceTree = "<group>"; };
+		88B7422D29DED068000A5E42 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		88B7422F29DED0A1000A5E42 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		F5FA18B885FB7FD4F857447B /* Pods-ayy-swiftui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ayy-swiftui.release.xcconfig"; path = "Target Support Files/Pods-ayy-swiftui/Pods-ayy-swiftui.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +72,76 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		88AD86BA29DFBE7B00021492 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				88AD86C129DFBEEF00021492 /* Setting */,
+				88AD86BE29DFBED000021492 /* Homepage */,
+				88AD86BB29DFBE8400021492 /* Base */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		88AD86BB29DFBE8400021492 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				88B741F829DE6950000A5E42 /* ayy_swiftuiApp.swift */,
+				88AD86BC29DFBE9500021492 /* MainTab.swift */,
+				88B7422C29DED058000A5E42 /* Redux */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		88AD86BE29DFBED000021492 /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				88AD86BF29DFBEDA00021492 /* HomepageView.swift */,
+				88AD86C629DFCF2D00021492 /* Redux */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		88AD86C129DFBEEF00021492 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				88AD86C229DFBEFC00021492 /* SettingView.swift */,
+				88AD86C929DFCFEC00021492 /* Redux */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		88AD86C429DFCC8500021492 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				88B7420729DE6C1B000A5E42 /* DelegateService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		88AD86C529DFCD1500021492 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				88B741FC29DE6951000A5E42 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		88AD86C629DFCF2D00021492 /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				88AD86C729DFCF3D00021492 /* HomepageRedux.swift */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		88AD86C929DFCFEC00021492 /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				88AD86CA29DFCFEC00021492 /* SettingRedux.swift */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
 		88B741EC29DE6950000A5E42 = {
 			isa = PBXGroup;
 			children = (
@@ -81,11 +163,10 @@
 		88B741F729DE6950000A5E42 /* ayy-swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				88AD86C529DFCD1500021492 /* Resource */,
+				88AD86BA29DFBE7B00021492 /* Business */,
 				88B7420929DE6EC7000A5E42 /* Base */,
 				88B7420629DE6BC4000A5E42 /* Network */,
-				88B741F829DE6950000A5E42 /* ayy_swiftuiApp.swift */,
-				88B741FA29DE6950000A5E42 /* ContentView.swift */,
-				88B741FC29DE6951000A5E42 /* Assets.xcassets */,
 				88B741FE29DE6951000A5E42 /* Preview Content */,
 			);
 			path = "ayy-swiftui";
@@ -103,7 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				88B7421729DE9366000A5E42 /* Model */,
-				88B7420729DE6C1B000A5E42 /* DelegateService.swift */,
+				88AD86C429DFCC8500021492 /* Service */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -130,6 +211,15 @@
 				88B7420D29DE70AB000A5E42 /* BaseModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		88B7422C29DED058000A5E42 /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				88B7422D29DED068000A5E42 /* AppStore.swift */,
+				88B7422F29DED0A1000A5E42 /* AppState.swift */,
+			);
+			path = Redux;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,10 +336,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88B741FB29DE6950000A5E42 /* ContentView.swift in Sources */,
+				88AD86C029DFBEDA00021492 /* HomepageView.swift in Sources */,
+				88AD86C329DFBEFC00021492 /* SettingView.swift in Sources */,
+				88B7422E29DED068000A5E42 /* AppStore.swift in Sources */,
 				88B7421029DE7415000A5E42 /* DelegateServiceModel.swift in Sources */,
 				88B741F929DE6950000A5E42 /* ayy_swiftuiApp.swift in Sources */,
+				88AD86BD29DFBE9500021492 /* MainTab.swift in Sources */,
+				88AD86C829DFCF3D00021492 /* HomepageRedux.swift in Sources */,
 				88B7420829DE6C1B000A5E42 /* DelegateService.swift in Sources */,
+				88B7423029DED0A1000A5E42 /* AppState.swift in Sources */,
+				88AD86CB29DFCFEC00021492 /* SettingRedux.swift in Sources */,
 				88B7420E29DE70AB000A5E42 /* BaseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,5 +10,7 @@ target 'ayy-swiftui' do
   pod 'NetworkManager', :path=>'/Users/imac/Desktop/NetworkManager'
   
   pod 'SwifterSwift'
+  
+  pod 'LookinServer', :configurations => ['Debug']
 end
 

@@ -10,7 +10,9 @@ import NetworkManager
 
 @main
 struct ayy_swiftuiApp: App {
-    @State var tips: String?
+
+    @StateObject var store = AppStore()
+    
 //    func useCombine() {
 //        let seak = Seak()
 //        let provider = AYYProvider<DelegateService>()
@@ -34,7 +36,7 @@ struct ayy_swiftuiApp: App {
         do {
             let provier = NetworkManagerProvider<DelegateService>()
             let res: BaseModel<MemberConfigModel> = try await provier.asyncRequestNetworkManagerPublisher(.memberConfig)
-            self.tips = res.data?.drawTips
+            store.state.memberConfig = res.data
         }catch {
             print(error)
         }
@@ -78,14 +80,21 @@ struct ayy_swiftuiApp: App {
     
     var body: some Scene {
         WindowGroup {
-            Text(tips ?? "")
-            ContentView()
+            MainTab()
                 .onAppear {
                     initial()
                     Task {
                         await useAsync()
                     }
                 }
+                .environmentObject(store)
         }
+    }
+}
+
+struct SliderView {
+    @Binding var value: CGFloat
+    @ViewBuilder var body: some View {
+        Slider(value: $value)
     }
 }
