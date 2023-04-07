@@ -90,7 +90,7 @@ struct ayy_swiftuiApp: App {
                     }
                     .environmentObject(store)
                 if store.state.userModel?.userName == nil {
-                    LoginView()
+                    LoginPreView()
                 }else {
                     MainTab()
                 }

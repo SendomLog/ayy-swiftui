@@ -1,5 +1,5 @@
 //
-//  LoginView.swift
+//  LoginPreView.swift
 //  ayy-swiftui
 //
 //  Created by iMac on 2023/4/7.
@@ -30,7 +30,7 @@ struct LoginAgreeButton: View {
     }
 }
 
-struct LoginView: View {
+struct LoginPreView: View {
     
     @EnvironmentObject var appStore: AppStore
     
@@ -123,8 +123,8 @@ struct LoginView: View {
     }
 }
 
-struct LoginView_Previews: PreviewProvider {
+struct LoginPreView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        LoginPreView()
     }
 }

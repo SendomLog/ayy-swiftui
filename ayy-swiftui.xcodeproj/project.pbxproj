@@ -13,7 +13,7 @@
 		88AD86C329DFBEFC00021492 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD86C229DFBEFC00021492 /* SettingView.swift */; };
 		88AD86C829DFCF3D00021492 /* HomepageRedux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD86C729DFCF3D00021492 /* HomepageRedux.swift */; };
 		88AD86CB29DFCFEC00021492 /* SettingRedux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD86CA29DFCFEC00021492 /* SettingRedux.swift */; };
-		88AD86D029DFD25800021492 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD86CD29DFD25800021492 /* LoginView.swift */; };
+		88AD86D029DFD25800021492 /* LoginPreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD86CD29DFD25800021492 /* LoginPreView.swift */; };
 		88AD86D129DFD25800021492 /* LoginRedux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD86CF29DFD25800021492 /* LoginRedux.swift */; };
 		88AD86D329DFD3C000021492 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD86D229DFD3C000021492 /* UserModel.swift */; };
 		88AD86D629E0127200021492 /* LoginNegotiateAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AD86D529E0127200021492 /* LoginNegotiateAlertView.swift */; };
@@ -35,7 +35,7 @@
 		88AD86C229DFBEFC00021492 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		88AD86C729DFCF3D00021492 /* HomepageRedux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageRedux.swift; sourceTree = "<group>"; };
 		88AD86CA29DFCFEC00021492 /* SettingRedux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingRedux.swift; sourceTree = "<group>"; };
-		88AD86CD29DFD25800021492 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		88AD86CD29DFD25800021492 /* LoginPreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPreView.swift; sourceTree = "<group>"; };
 		88AD86CF29DFD25800021492 /* LoginRedux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRedux.swift; sourceTree = "<group>"; };
 		88AD86D229DFD3C000021492 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		88AD86D529E0127200021492 /* LoginNegotiateAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNegotiateAlertView.swift; sourceTree = "<group>"; };
@@ -154,7 +154,7 @@
 		88AD86CC29DFD25800021492 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				88AD86CD29DFD25800021492 /* LoginView.swift */,
+				88AD86CD29DFD25800021492 /* LoginPreView.swift */,
 				88AD86CE29DFD25800021492 /* Redux */,
 			);
 			path = Login;
@@ -379,7 +379,7 @@
 				88B7421029DE7415000A5E42 /* DelegateServiceModel.swift in Sources */,
 				88B741F929DE6950000A5E42 /* ayy_swiftuiApp.swift in Sources */,
 				88AD86BD29DFBE9500021492 /* MainTab.swift in Sources */,
-				88AD86D029DFD25800021492 /* LoginView.swift in Sources */,
+				88AD86D029DFD25800021492 /* LoginPreView.swift in Sources */,
 				88AD86D329DFD3C000021492 /* UserModel.swift in Sources */,
 				88AD86D629E0127200021492 /* LoginNegotiateAlertView.swift in Sources */,
 				88AD86C829DFCF3D00021492 /* HomepageRedux.swift in Sources */,
