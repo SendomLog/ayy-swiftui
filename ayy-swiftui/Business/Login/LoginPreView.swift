@@ -30,6 +30,11 @@ struct LoginAgreeButton: View {
     }
 }
 
+/// 1. 创建实例: 1. 视图可能被多次创建, 2. 视图可能由于懒加载不立刻创建
+/// 2. 求值: 调用 body get 方法(每次更新都会调用)
+/// 3. 布局: 父控件像子空间提供大小, 子控件像父控件返回需要的尺寸
+/// 4. 渲染
+/// 
 struct LoginPreView: View {
     
     @EnvironmentObject var appStore: AppStore
