@@ -104,21 +104,15 @@ struct LoginPreView: View {
                 LoginNegotiateAlertView(certainCallback: {
                     store.state.agree = true
                     store.state.showAgreeAlert = false
-                    store.state.path.append(0)
+                    store.reduce(action: .push(.phoneLogin))
                 }, quiteCallback: {
                     exit(0)
                 })
                     .opacity(store.state.showAgreeAlert ? 1.0 : 0.0)
             }
             .ignoresSafeArea()
-            .navigationDestination(for: Int.self) { idx in
-                switch idx {
-                case 0:
-                    LoginPhoneView()
-                        .environmentObject(store)
-                default:
-                    Text("\(idx)")
-                }
+            .navigationDestination(for: LoginPushTargetType.self) { target in
+                store.state.push(target)
             }
         }
     }

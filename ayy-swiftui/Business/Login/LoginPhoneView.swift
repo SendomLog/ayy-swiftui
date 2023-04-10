@@ -11,6 +11,7 @@ struct LoginPhoneView: View {
     @EnvironmentObject var store: LoginStore
     
     var body: some View {
+        Text("手机号登陆")
         Button {
             store.state.path.removeLast()
         } label: {
