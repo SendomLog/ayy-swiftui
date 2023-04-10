@@ -11,6 +11,9 @@ struct LoginPhoneView: View {
     @EnvironmentObject var store: LoginStore
     
     var body: some View {
+        VStack {
+            
+        }.navigationTitle("手机号登陆")
         Text("手机号登陆")
         Button {
             store.state.path.removeLast()

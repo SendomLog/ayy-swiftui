@@ -23,10 +23,14 @@ struct LoginState {
     var showAgreeAlert = false
     var path = NavigationPath()
     var push: ((LoginPushTargetType) -> Group<AnyView>) = { type in
-        return Group {
-            switch type {
-            case .phoneLogin:
+        switch type {
+        case .phoneLogin:
+            return Group {
                 AnyView(LoginPhoneView())
+            }
+        case .testView:
+            return Group {
+                AnyView(TestOnAppearCall())
             }
         }
     }
@@ -40,10 +44,7 @@ struct LoginReducer {
     func reduce(_ store: LoginStore, action: LoginAction) -> LoginAction? {
         switch (action) {
         case .push(let type):
-            switch type {
-            case .phoneLogin:
-                store.state.path.append(LoginPushTargetType.phoneLogin)
-            }
+            store.state.path.append(type)
         }
         return nil
     }
@@ -51,6 +52,7 @@ struct LoginReducer {
 
 enum LoginPushTargetType {
     case phoneLogin
+    case testView
 }
 
 
